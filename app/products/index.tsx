@@ -1,8 +1,17 @@
 "use client";
 
-import { ProductType } from "@/app/@types";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+
+export interface ProductType {
+  id: string;
+  imgs: string;
+  title: string;
+  price: string;
+  discount_price: string;
+  btn: string;
+}
+
 
 const HomeProducts = () => {
   const [data, setData] = useState<ProductType[]>([]);

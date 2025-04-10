@@ -11,8 +11,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useEffect, useState } from "react";
-import { ProductType } from "@/app/@types";
-import HomeProducts from "..";
+
+import HomeProducts, { ProductType } from "..";
 
 export default function ProductPage({
   params,
