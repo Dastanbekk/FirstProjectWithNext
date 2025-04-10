@@ -1,11 +1,8 @@
 "use client";
 
-import Image from "next/image";
-
 import Link from "next/link";
-import { ChevronRight, Search, ShoppingCart, User } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {
   Select,
   SelectContent,
