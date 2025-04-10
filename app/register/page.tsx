@@ -65,7 +65,7 @@ const Register = () => {
 
                   {/* Ro'yxatdan o'tish */}
                   <p className="text-center text-sm text-gray-600">
-                    Akkountingiz yo‘qmi?{" "}
+                    Akkountingiz yoqmi?{" "}
                     <Link
                       href={"/register"}
                       className="text-green-600 font-semibold hover:underline"

@@ -12,7 +12,7 @@ const Home = () => {
             Ozbekistonga yetkazish <ChevronRightIcon />{" "}
           </p>
           <p className="flex items-center justify-between px-7 py-4 hover:bg-gray-200 cursor-pointer">
-            Go'sht va Baliq <ChevronRightIcon />{" "}
+            Gosht va Baliq <ChevronRightIcon />{" "}
           </p>
           <p className="flex items-center justify-between px-7 py-4 hover:bg-gray-200 cursor-pointer">
             Asosiy oziq-ovqatlar <ChevronRightIcon />{" "}
@@ -27,10 +27,10 @@ const Home = () => {
             Mobil telefon va kompyuter... <ChevronRightIcon />{" "}
           </p>
           <p className="flex items-center justify-between px-7 py-4 hover:bg-gray-200 cursor-pointer">
-            Go'zallik & Sog'lik <ChevronRightIcon />{" "}
+            Gozallik & Soglik <ChevronRightIcon />{" "}
           </p>
           <p className="flex items-center justify-between px-7 py-4 hover:bg-gray-200 cursor-pointer">
-            Oilaviy do'kon <ChevronRightIcon />{" "}
+            Oilaviy dokon <ChevronRightIcon />{" "}
           </p>
           <p className="flex items-center justify-between px-7 py-4 hover:bg-gray-200 cursor-pointer">
             Kitoblar <ChevronRightIcon />{" "}
