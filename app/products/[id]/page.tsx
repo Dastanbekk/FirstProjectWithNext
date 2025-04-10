@@ -174,7 +174,7 @@ export default function ProductPage({
 
         {/* Related Products */}
         <div className="mt-12">
-          <h2 className="text-xl font-medium mb-6">O'xshash mahsulotlar</h2>
+          <h2 className="text-xl font-medium mb-6">O&apos;xshash mahsulotlar</h2>
           <HomeProducts />
         </div>
       </main>
