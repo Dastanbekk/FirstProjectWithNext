@@ -61,7 +61,7 @@ const HomeProducts = () => {
                     onClick={() => handleAddClick(value.id)}
                     className="bg-[#F7F7F7] cursor-pointer w-full rounded-lg text-center  py-2 text-black"
                   >
-                    Qo‘shish
+                    {value.btn}
                   </button>
                 ) : (
                   <div className="bg-[#009879] flex justify-between items-center w-full px-4 py-2 rounded-lg text-white font-semibold ">
