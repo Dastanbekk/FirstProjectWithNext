@@ -10,23 +10,24 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import HomeProducts, { ProductType } from "..";
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const [data, setData] = useState<ProductType[]>([]);
+export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = React.use(params);
+
+  const [data, setData] = useState<ProductType | any>({});
+
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(
-        `https://67f74bcb42d6c71cca6499e0.mockapi.io/HilalMart_Products/${params.id}`
-      );
+      const res = await fetch(`https://67f74bcb42d6c71cca6499e0.mockapi.io/HilalMart_Products/${id}`);
       const json = await res.json();
       setData(json);
     };
 
     fetchData();
-  }, []);
+  }, [id]);
 
   console.log(data);
   return (
