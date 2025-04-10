@@ -26,7 +26,7 @@ const Navbar = () => {
             href={"/faq"}
             className="flex items-center gap-1 underline"
           >
-            <Image src={operator} alt="user" /> Bog'lanish
+            <Image src={operator} alt="user" /> Boglanish
           </Link>
           <button className="border cursor-pointer py-2 px-4 rounded-lg text-[#019E7F] border-[#019E7F]">
             Payme

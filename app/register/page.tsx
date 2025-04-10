@@ -70,7 +70,7 @@ const Register = () => {
                       href={"/register"}
                       className="text-green-600 font-semibold hover:underline"
                     >
-                      Ro‘yxatdan o‘ting!
+                      Royxatdan oting!
                     </Link>
                   </p>
                 </div>
@@ -84,7 +84,7 @@ const Register = () => {
                   Eslatma:{" "}
                   <span className="text-gray-700 font-normal">
                     Mehmon foydalanuvchilar buyurtmani kuzatish va ular haqidagi
-                    ma’lumotlarni saqlash imkoniyatiga ega emas!
+                    malumotlarni saqlash imkoniyatiga ega emas!
                   </span>
                 </p>
                 <p className="text-sm text-gray-700 mt-4">

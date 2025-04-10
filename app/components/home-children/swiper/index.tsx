@@ -18,7 +18,7 @@ const SwiperHome = () => {
         <SwiperSlide className="!p-10">
           <div className="flex flex-col gap-4 ">
             <h2 className="text-lg md:text-2xl font-bold max-w-[572px] px-10">
-              Yangi ro’yxatdan o’tgan mijozlarga ilk buyurtma bepul yetkazib
+              Yangi royxatdan otgan mijozlarga ilk buyurtma bepul yetkazib
               beriladi!
             </h2>
             <div className="flex items-center gap-2 text-sm px-10">
@@ -31,7 +31,7 @@ const SwiperHome = () => {
         <SwiperSlide className="pt-10 px-10 pb-20">
           <div className="flex flex-col gap-4 ">
             <h2 className="text-lg md:text-2xl font-bold max-w-[572px] px-10">
-              Yangi ro’yxatdan o’tgan mijozlarga ilk buyurtma bepul yetkazib
+              Yangi royxatdan otgan mijozlarga ilk buyurtma bepul yetkazib
               beriladi!
             </h2>
             <div className="flex items-center gap-2 text-sm px-10">
