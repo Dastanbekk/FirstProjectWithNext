@@ -1,6 +1,7 @@
 "use client";
 
 import { ProductType } from "@/app/@types";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const HomeProducts = () => {
@@ -42,11 +43,13 @@ const HomeProducts = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {data.map((value: ProductType) => (
           <div key={value.id} className="bg-white">
-            <img
-              className="max-w-[262px] max-h-[262px]"
-              src={value.imgs}
-              alt="product-image"
-            />
+            <Link href={`/products/${value.id}`}>
+              <img
+                className="max-w-[262px] max-h-[262px]"
+                src={value.imgs}
+                alt="product-image"
+              />
+            </Link>
             <div className="flex flex-col w-full gap-2 p-5">
               <p>{value.title}</p>
               <div className="flex items-center gap-3">

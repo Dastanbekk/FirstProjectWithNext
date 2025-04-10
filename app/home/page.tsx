@@ -1,7 +1,7 @@
 import { ChevronRightIcon } from "lucide-react";
 import React from "react";
 import SwiperHome from "../components/home-children/swiper";
-import HomeProducts from "../components/home-children/products";
+import HomeProducts from "../products";
 
 const Home = () => {
   return (
